@@ -10,9 +10,23 @@
 		CB15EC6E29ED02BF0077945D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC6D29ED02BF0077945D /* AppDelegate.swift */; };
 		CB15EC7029ED02BF0077945D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC6F29ED02BF0077945D /* SceneDelegate.swift */; };
 		CB15EC7229ED02BF0077945D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC7129ED02BF0077945D /* ViewController.swift */; };
-		CB15EC7529ED02BF0077945D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB15EC7329ED02BF0077945D /* Main.storyboard */; };
 		CB15EC7729ED02C00077945D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB15EC7629ED02C00077945D /* Assets.xcassets */; };
 		CB15EC7A29ED02C00077945D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB15EC7829ED02C00077945D /* LaunchScreen.storyboard */; };
+		CB15EC8229ED053B0077945D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC8129ED053B0077945D /* MainTabBarViewController.swift */; };
+		CB15EC8929ED06780077945D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC8829ED06780077945D /* HomeViewController.swift */; };
+		CB15EC8B29ED06A10077945D /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC8A29ED06A10077945D /* UpcomingViewController.swift */; };
+		CB15EC8D29ED06BD0077945D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC8C29ED06BD0077945D /* SearchViewController.swift */; };
+		CB15EC8F29ED07930077945D /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC8E29ED07930077945D /* DownloadsViewController.swift */; };
+		CB15EC9629ED2B340077945D /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC9529ED2B340077945D /* CollectionViewTableViewCell.swift */; };
+		CB15EC9829ED358A0077945D /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15EC9729ED358A0077945D /* HeroHeaderUIView.swift */; };
+		CB4C417129EFC7AF00810059 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C417029EFC7AF00810059 /* Title.swift */; };
+		CB4C417329EFCFA500810059 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C417229EFCFA500810059 /* Extensions.swift */; };
+		CB4C417729EFE97500810059 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C417629EFE97500810059 /* TitleCollectionViewCell.swift */; };
+		CB4C417A29EFEB8200810059 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CB4C417929EFEB8200810059 /* SDWebImage */; };
+		CB4C417C29EFEB8200810059 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CB4C417B29EFEB8200810059 /* SDWebImageMapKit */; };
+		CB98076F29F17455000F0370 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98076E29F17455000F0370 /* TitleTableViewCell.swift */; };
+		CB98077129F17815000F0370 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98077029F17815000F0370 /* TitleViewModel.swift */; };
+		CBBBA01929EE9563001B6C0A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBBA01829EE9563001B6C0A /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +34,22 @@
 		CB15EC6D29ED02BF0077945D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB15EC6F29ED02BF0077945D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB15EC7129ED02BF0077945D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB15EC7429ED02BF0077945D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB15EC7629ED02C00077945D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB15EC7929ED02C00077945D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB15EC7B29ED02C00077945D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB15EC8129ED053B0077945D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		CB15EC8829ED06780077945D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB15EC8A29ED06A10077945D /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		CB15EC8C29ED06BD0077945D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CB15EC8E29ED07930077945D /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		CB15EC9529ED2B340077945D /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		CB15EC9729ED358A0077945D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		CB4C417029EFC7AF00810059 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		CB4C417229EFCFA500810059 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CB4C417629EFE97500810059 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB98076E29F17455000F0370 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		CB98077029F17815000F0370 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		CBBBA01829EE9563001B6C0A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4C417C29EFEB8200810059 /* SDWebImageMapKit in Frameworks */,
+				CB4C417A29EFEB8200810059 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,75 @@
 		CB15EC6C29ED02BF0077945D /* NetFlick */ = {
 			isa = PBXGroup;
 			children = (
+				CB15EC9429ED2AF40077945D /* Manager */,
+				CB15EC9329ED2ADE0077945D /* Resource */,
+				CB15EC9229ED2AC30077945D /* Models */,
+				CB15EC9129ED2AB70077945D /* ViewModels */,
+				CB15EC9029ED2AA80077945D /* Views */,
+				CB15EC8329ED06120077945D /* Controller */,
 				CB15EC6D29ED02BF0077945D /* AppDelegate.swift */,
 				CB15EC6F29ED02BF0077945D /* SceneDelegate.swift */,
 				CB15EC7129ED02BF0077945D /* ViewController.swift */,
-				CB15EC7329ED02BF0077945D /* Main.storyboard */,
+				CB15EC8129ED053B0077945D /* MainTabBarViewController.swift */,
 				CB15EC7629ED02C00077945D /* Assets.xcassets */,
 				CB15EC7829ED02C00077945D /* LaunchScreen.storyboard */,
 				CB15EC7B29ED02C00077945D /* Info.plist */,
 			);
 			path = NetFlick;
+			sourceTree = "<group>";
+		};
+		CB15EC8329ED06120077945D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB15EC8829ED06780077945D /* HomeViewController.swift */,
+				CB15EC8A29ED06A10077945D /* UpcomingViewController.swift */,
+				CB15EC8C29ED06BD0077945D /* SearchViewController.swift */,
+				CB15EC8E29ED07930077945D /* DownloadsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB15EC9029ED2AA80077945D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB15EC9529ED2B340077945D /* CollectionViewTableViewCell.swift */,
+				CB15EC9729ED358A0077945D /* HeroHeaderUIView.swift */,
+				CB4C417629EFE97500810059 /* TitleCollectionViewCell.swift */,
+				CB98076E29F17455000F0370 /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB15EC9129ED2AB70077945D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CB98077029F17815000F0370 /* TitleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB15EC9229ED2AC30077945D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C417029EFC7AF00810059 /* Title.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB15EC9329ED2ADE0077945D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C417229EFCFA500810059 /* Extensions.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB15EC9429ED2AF40077945D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CBBBA01829EE9563001B6C0A /* APICaller.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,10 @@
 			dependencies = (
 			);
 			name = NetFlick;
+			packageProductDependencies = (
+				CB4C417929EFEB8200810059 /* SDWebImage */,
+				CB4C417B29EFEB8200810059 /* SDWebImageMapKit */,
+			);
 			productName = NetFlick;
 			productReference = CB15EC6A29ED02BF0077945D /* NetFlick.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +203,9 @@
 				Base,
 			);
 			mainGroup = CB15EC6129ED02BF0077945D;
+			packageReferences = (
+				CB4C417829EFEB8200810059 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CB15EC6B29ED02BF0077945D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +222,6 @@
 			files = (
 				CB15EC7A29ED02C00077945D /* LaunchScreen.storyboard in Resources */,
 				CB15EC7729ED02C00077945D /* Assets.xcassets in Resources */,
-				CB15EC7529ED02BF0077945D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +232,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB15EC8B29ED06A10077945D /* UpcomingViewController.swift in Sources */,
+				CB15EC9829ED358A0077945D /* HeroHeaderUIView.swift in Sources */,
+				CB4C417129EFC7AF00810059 /* Title.swift in Sources */,
+				CB15EC8D29ED06BD0077945D /* SearchViewController.swift in Sources */,
+				CB15EC8F29ED07930077945D /* DownloadsViewController.swift in Sources */,
+				CB15EC8929ED06780077945D /* HomeViewController.swift in Sources */,
 				CB15EC7229ED02BF0077945D /* ViewController.swift in Sources */,
+				CB4C417729EFE97500810059 /* TitleCollectionViewCell.swift in Sources */,
+				CB15EC9629ED2B340077945D /* CollectionViewTableViewCell.swift in Sources */,
+				CB4C417329EFCFA500810059 /* Extensions.swift in Sources */,
+				CB98076F29F17455000F0370 /* TitleTableViewCell.swift in Sources */,
+				CB15EC8229ED053B0077945D /* MainTabBarViewController.swift in Sources */,
+				CBBBA01929EE9563001B6C0A /* APICaller.swift in Sources */,
+				CB98077129F17815000F0370 /* TitleViewModel.swift in Sources */,
 				CB15EC6E29ED02BF0077945D /* AppDelegate.swift in Sources */,
 				CB15EC7029ED02BF0077945D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +254,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB15EC7329ED02BF0077945D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB15EC7429ED02BF0077945D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB15EC7829ED02C00077945D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +390,6 @@
 				INFOPLIST_FILE = NetFlick/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +416,6 @@
 				INFOPLIST_FILE = NetFlick/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +453,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB4C417829EFEB8200810059 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB4C417929EFEB8200810059 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB4C417829EFEB8200810059 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CB4C417B29EFEB8200810059 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB4C417829EFEB8200810059 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB15EC6229ED02BF0077945D /* Project object */;
 }
